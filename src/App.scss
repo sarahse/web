@@ -1,0 +1,42 @@
+.app {
+  &__header {
+    border-bottom: 10px solid transparent;
+    border-image: url("../public/media/border.svg") 30 stretch;
+    text-align: center;
+
+    h1 {
+      background-image: url("../public/media/acrylic.svg");
+      background-clip: text;
+      color: transparent;
+      -webkit-text-stroke: 0.5px gray;
+      font-size: 300%;
+    }
+  }
+
+  &__body {
+    display: grid;
+    grid-template-areas: "about" "projects" "contact";
+    padding: 5%;
+
+    h2 {
+      font-family: "Helvetica Neue", "Helvetica", sans-serif;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      text-decoration: underline dotted rgb(143, 234, 228);
+    }
+  }
+
+  .about {
+    grid-area: "about";
+  }
+
+  .projects {
+    grid-area: "projects";
+  }
+
+  .contact {
+    grid-area: "contact";
+  }
+}
