@@ -13,7 +13,7 @@ const App = () => {
         </nav>
       </header>
       <main className="app__body">
-        <section className="about" id="about">
+        <section className="about card" id="about">
           <article className="text">
             <h2 className="title">About</h2>
             <p>
@@ -34,7 +34,7 @@ const App = () => {
             className="clip-circle"
           />
         </section>
-        <section className="projects" id="projects">
+        <section className="projects card" id="projects">
           <h2>Projects</h2>
           <h3>TENK Tech Camp</h3>
           <p>
@@ -65,7 +65,7 @@ const App = () => {
             into a digital tool.
           </p>
         </section>
-        <section className="contact" id="contact">
+        <section className="contact card" id="contact">
           <h2>Contact</h2>
         </section>
       </main>

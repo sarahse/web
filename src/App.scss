@@ -1,7 +1,7 @@
 .app {
   &__header {
-    border-bottom: 10px solid transparent;
-    border-image: url("../public/media/border.svg") 30 stretch;
+    border-bottom: 3rem solid transparent;
+    border-image: url("../public/media/border2.svg") 20 stretch;
     text-align: center;
 
     h1 {
@@ -23,7 +23,7 @@
   &__body {
     display: grid;
     grid-template-areas: "about" "projects" "contact";
-    padding: 5%;
+    padding: 3% 10%;
 
     h2 {
       font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -33,6 +33,17 @@
     h3 {
       text-decoration: underline dotted rgb(143, 234, 228);
     }
+
+    section {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .card {
+    background-color: rgb(253, 249, 250);
+    border: 2px solid lightgray;
+    border-radius: 2rem;
+    padding: 1rem;
   }
 
   .about {
@@ -41,9 +52,6 @@
     grid-template-areas: "text image";
     grid-template-columns: 3fr 1fr;
     align-items: center;
-    border: 10px solid transparent;
-    border-image: url("../public/media/border2.svg") 11 stretch;
-    padding: 1rem;
     gap: 1rem;
   }
 
