@@ -10,6 +10,13 @@
       color: transparent;
       -webkit-text-stroke: 0.5px gray;
       font-size: 300%;
+      margin: 1rem 0;
+    }
+
+    nav {
+      a {
+        padding: 0 2rem;
+      }
     }
   }
 
@@ -38,5 +45,10 @@
 
   .contact {
     grid-area: "contact";
+  }
+
+  .clip-circle {
+    clip-path: circle(100px at center);
+    width: 200px;
   }
 }

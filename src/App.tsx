@@ -6,13 +6,23 @@ const App = () => {
     <div className="app">
       <header className="app__header">
         <h1>sarahserussi.com</h1>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </header>
-      <div className="app__body">
-        <div className="about">
+      <main className="app__body">
+        <section className="about" id="about">
           <h2>About</h2>
+          <img
+            src="/media/DALL-E_2022-10-07_22.10.59_a_dream_within_a_dream_in_a_balloon_cyberpunk.png"
+            alt="A dream within a dream, DALL-E prompt"
+            className="clip-circle"
+          />
           <p>
             Hello, I'm Sarah. I am a software developer working at Variant in
-            Trondheim. I like to knit, embroider, cook food for my daughter and
+            Trondheim. I like to knit, crochet, cook food for my daughter and
             watch trash on TV. I believe there are too few women in technology,
             and I try to do an extra effort in closing the gender gap in the IT
             industry. I am part of the <a href="https://tenknorge.com/">TENK</a>{" "}
@@ -20,8 +30,8 @@ const App = () => {
             <a href="https://tenknorge.com/tenk-tech-camp">TENK Tech Camp</a>{" "}
             which is a 2 day programming camp for 13-18 year old girls.
           </p>
-        </div>
-        <div className="projects">
+        </section>
+        <section className="projects" id="projects">
           <h2>Projects</h2>
           <h3>TENK Tech Camp</h3>
           <p>
@@ -51,11 +61,11 @@ const App = () => {
             their head by organizing tasks, events, reminders, tips and hints
             into a digital tool.
           </p>
-        </div>
-        <div className="contact">
+        </section>
+        <section className="contact" id="contact">
           <h2>Contact</h2>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 };
