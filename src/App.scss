@@ -36,19 +36,36 @@
   }
 
   .about {
-    grid-area: "about";
+    grid-area: about;
+    display: grid;
+    grid-template-areas: "text image";
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    border: 10px solid transparent;
+    border-image: url("../public/media/border2.svg") 11 stretch;
+    padding: 1rem;
+    gap: 1rem;
   }
 
   .projects {
-    grid-area: "projects";
+    grid-area: projects;
   }
 
   .contact {
-    grid-area: "contact";
+    grid-area: contact;
   }
 
   .clip-circle {
+    grid-area: image;
     clip-path: circle(100px at center);
     width: 200px;
+  }
+
+  .title {
+    margin: 0.5rem 0;
+  }
+
+  .text {
+    grid-area: text;
   }
 }
