@@ -69,21 +69,23 @@ const App = () => {
           </article>
           <article className="card">
             <h3>Knitting and crocheting</h3>
-            <img
-              src="/media/DALL-E_2022-10-07_22.10.59_a_dream_within_a_dream_in_a_balloon_cyberpunk.png"
-              alt="DALL-E: A dream within a dream in a balloon."
-              className="clip-circle"
-            />
-            <img
-              src="/media/DALL-E_2022-10-07_22.11.09_a_dream_within_a_dream_in_a_balloon_2_cyberpunk.png"
-              alt="DALL-E: A dream within a dream in a balloon."
-              className="clip-circle"
-            />
-            <img
-              src="media/DALL-E_2022-10-07_22.10.24_a_dream_within_a_dream_in_an_ocean_cyberpunk.png"
-              alt="DALL-E: A dream within a dream in an ocean."
-              className="clip-circle"
-            />
+            <div className="card__images">
+              <img
+                src="/media/DALL-E_2022-10-07_22.10.59_a_dream_within_a_dream_in_a_balloon_cyberpunk.png"
+                alt="DALL-E: A dream within a dream in a balloon."
+                className="clip-circle"
+              />
+              <img
+                src="/media/DALL-E_2022-10-07_22.11.09_a_dream_within_a_dream_in_a_balloon_2_cyberpunk.png"
+                alt="DALL-E: A dream within a dream in a balloon."
+                className="clip-circle"
+              />
+              <img
+                src="media/DALL-E_2022-10-07_22.10.24_a_dream_within_a_dream_in_an_ocean_cyberpunk.png"
+                alt="DALL-E: A dream within a dream in an ocean."
+                className="clip-circle"
+              />
+            </div>
           </article>
         </section>
         <section className="contact" id="contact">
