@@ -5,17 +5,19 @@
     text-align: center;
 
     h1 {
-      background-image: url("../public/media/acrylic.svg");
-      background-clip: text;
-      color: transparent;
-      -webkit-text-stroke: 0.5px gray;
-      font-size: 300%;
+      font-family: "Patrick Hand";
+      font-size: 400%;
       margin: 1rem 0;
     }
 
     nav {
       a {
+        font-family: "Patrick Hand";
+        font-size: 150%;
         padding: 0 2rem;
+        outline: none;
+        text-decoration: none;
+        border-radius: 1rem;
       }
     }
   }
@@ -26,12 +28,14 @@
     padding: 3% 10%;
 
     h2 {
-      font-family: "Helvetica Neue", "Helvetica", sans-serif;
+      font-family: "Inter Tight", "Helvetica Neue", "Helvetica", sans-serif;
       text-transform: uppercase;
+      font-size: 200%;
     }
 
     h3 {
-      text-decoration: underline dotted rgb(143, 234, 228);
+      letter-spacing: -0.1rem;
+      font-size: 150%;
     }
 
     section {
@@ -40,9 +44,9 @@
   }
 
   .card {
-    background-color: rgb(253, 249, 250);
-    border: 2px solid lightgray;
-    border-radius: 2rem;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 5% 12% 2% 8%;
     padding: 1rem;
   }
 
@@ -52,6 +56,7 @@
     grid-template-areas: "text image";
     grid-template-columns: 3fr 1fr;
     align-items: center;
+    justify-items: center;
     gap: 1rem;
   }
 
@@ -75,5 +80,32 @@
 
   .text {
     grid-area: text;
+  }
+
+  a {
+    font-family: "Patrick Hand";
+    padding: 0 0.2rem;
+    outline: none;
+    text-decoration: none;
+    border-radius: 1rem;
+  }
+
+  a:link {
+    color: rgb(230, 55, 230);
+  }
+
+  a:visited {
+    color: rgb(163, 41, 163);
+  }
+
+  a:focus,
+  a:hover {
+    background: black;
+    color: white;
+  }
+
+  a:active {
+    border: 1px solid;
+    background: rgb(230, 55, 230);
   }
 }
