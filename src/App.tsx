@@ -47,7 +47,7 @@ const App = () => {
             </p>
           </article>
           <article className="card">
-            <h3>Juno</h3>
+            <h3>Dukkling</h3>
             <p>
               I became a mom in 2021 and experienced the highs and lows of the
               fourth trimester. I was often overwhelmed with the amount of
@@ -59,13 +59,34 @@ const App = () => {
               my family of three. After some time there were less sleepless
               nights and also time to reflect and think of ideas for tools to
               enter this new life as a first-time mom.
-            </p>
-            <p>
+              <br />
+              <br />
               In May 2022 I was contacted by a doctor and an influencer with an
               idea to make an app for moms to help them clear out the mess in
               their head by organizing tasks, events, reminders, tips and hints
-              into a digital tool.
+              into a digital tool. Now we are a team of four working on creating
+              this app temorarily (or permanently) called{" "}
+              <a href="dukkling.com">Dukkling</a>.
             </p>
+          </article>
+          <article className="card">
+            <h3>FoodforSophia</h3>
+            <p>
+              I run an Instagram account called{" "}
+              <a href="https://www.instagram.com/foodforsophia/">
+                @foodforSophia
+              </a>{" "}
+              where I share the food Sophia eats. She has both milk allergy and
+              egg allergy, so we are making almost all food from scratch. We try
+              to eat more organic and less ultra-processed food.
+            </p>
+            <div className="card__images">
+              <img
+                src="/media/foodforsophia.png"
+                alt="Food Sophia eats"
+                className="clip-circle"
+              />
+            </div>
           </article>
           <article className="card">
             <h3>Knitting and crocheting</h3>
@@ -90,6 +111,10 @@ const App = () => {
         </section>
         <section className="contact" id="contact">
           <h2>Contact</h2>
+          <p>
+            ✉️ E-mail:{" "}
+            <a href="mailto:sarah.serussi@gmail.com">sarah.serussi@gmail.com</a>
+          </p>
         </section>
       </main>
     </div>
