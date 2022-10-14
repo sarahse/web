@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sarahserussi.com/static/css/main.ffd3a715.css",
-    "main.js": "/sarahserussi.com/static/js/main.5957a8a0.js",
-    "static/js/787.542b8469.chunk.js": "/sarahserussi.com/static/js/787.542b8469.chunk.js",
-    "static/media/border2.svg": "/sarahserussi.com/static/media/border2.97fe2807a5b521a3b7da.svg",
-    "index.html": "/sarahserussi.com/index.html",
-    "main.ffd3a715.css.map": "/sarahserussi.com/static/css/main.ffd3a715.css.map",
-    "main.5957a8a0.js.map": "/sarahserussi.com/static/js/main.5957a8a0.js.map",
-    "787.542b8469.chunk.js.map": "/sarahserussi.com/static/js/787.542b8469.chunk.js.map"
+    "main.css": "/web/static/css/main.13bb9a4e.css",
+    "main.js": "/web/static/js/main.f2f01abf.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/web/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/border2.svg": "/web/static/media/border2.97fe2807a5b521a3b7da.svg",
+    "index.html": "/web/index.html",
+    "main.13bb9a4e.css.map": "/web/static/css/main.13bb9a4e.css.map",
+    "main.f2f01abf.js.map": "/web/static/js/main.f2f01abf.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/web/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffd3a715.css",
-    "static/js/main.5957a8a0.js"
+    "static/css/main.13bb9a4e.css",
+    "static/js/main.f2f01abf.js"
   ]
 }
