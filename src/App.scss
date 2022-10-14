@@ -4,6 +4,11 @@
     border-image: url("../public/media/border2.svg") 20 stretch;
     text-align: center;
 
+    @media (max-width: 600px) {
+      border-bottom: 1rem solid transparent;
+      border-image: url("../public/media/border2.svg") 20 repeat;
+    }
+
     h1 {
       font-family: "Patrick Hand";
       font-size: 400%;
