@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 .app {
   &__header {
     border-bottom: 3rem solid transparent;
@@ -21,7 +23,7 @@
 
     nav {
       a {
-        font-family: "Patrick Hand";
+        font-family: "Patrick Hand", cursive;
         font-size: 150%;
         padding: 0 2rem;
         outline: none;
@@ -41,14 +43,14 @@
     }
 
     h2 {
-      font-family: "Inter Tight", "Helvetica Neue", "Helvetica", sans-serif;
+      font-family: "Raleway", sans-serif;
       text-transform: uppercase;
     }
 
     h3 {
-      letter-spacing: -0.1rem;
-      font-size: 150%;
-      margin: 1rem 0;
+      font-family: "Inter Tight", "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 120%;
+      margin: 0;
     }
 
     section {
@@ -58,7 +60,7 @@
 
   .card {
     background-color: var(--background-card-ghost-white);
-    border: 2px solid black;
+    border: 3px solid var(--background-card-dark-ghost-white);
     border-radius: 5% 12% 2% 8%;
     padding: 1rem;
     margin-top: 1rem;
