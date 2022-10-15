@@ -66,7 +66,7 @@ const App = () => {
               their head by organizing tasks, events, reminders, tips and hints
               into a digital tool. Now we are a team of four working on creating
               this app temorarily (or permanently) called{" "}
-              <a href="dukkling.com">Dukkling</a>.
+              <a href="https://dukkling.com">Dukkling</a>.
             </p>
           </article>
           <article className="card">
