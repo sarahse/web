@@ -88,18 +88,18 @@ const App = () => {
                 className="clip-circle"
               />
               <img
-                src="/media/dinner_sophia.jpg"
-                alt="Food Sophia eats"
+                src="/media/dinner_sophia.png"
+                alt="Dinner Sophia eats"
                 className="clip-circle"
               />
               <img
-                src="/media/oatmeal_waffles_sophia.jpg"
-                alt="Food Sophia eats"
+                src="/media/oatmeal_waffles_sophia.png"
+                alt="Waffles Sophia eats"
                 className="clip-circle"
               />
               <img
-                src="/media/porridge_sophia.jpg"
-                alt="Food Sophia eats"
+                src="/media/porridge_sophia.png"
+                alt="Porridge Sophia eats"
                 className="clip-circle"
               />
             </div>
