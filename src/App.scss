@@ -22,6 +22,9 @@
     }
 
     nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
       a {
         font-family: "Patrick Hand", cursive;
         font-size: 150%;
@@ -29,13 +32,19 @@
         outline: none;
         text-decoration: none;
         border-radius: 1rem;
+
+        @media (max-width: 600px) {
+          font-size: 120%;
+          padding: 0;
+        }
       }
     }
   }
 
   &__body {
     display: grid;
-    grid-template-areas: "about" "projects" "contact";
+    grid-template-columns: 1fr;
+    grid-template-areas: "about" "projects" "talks" "contact";
     padding: 1% 10%;
 
     @media (max-width: 600px) {
@@ -60,7 +69,7 @@
 
   .card {
     background-color: var(--background-card-ghost-white);
-    border: 3px solid var(--background-card-dark-ghost-white);
+    border: 1px solid var(--background-card-dark-ghost-white);
     border-radius: 5% 12% 2% 8%;
     padding: 1rem;
     margin-top: 1rem;
@@ -81,7 +90,6 @@
     grid-area: about;
     display: grid;
     grid-template-areas: "text image";
-    grid-template-columns: 3fr 1fr;
     align-items: center;
     justify-items: center;
     gap: 1rem;
@@ -96,14 +104,18 @@
     grid-area: projects;
   }
 
+  .talks {
+    grid-area: talks;
+  }
+
   .contact {
     grid-area: contact;
   }
 
   .clip-circle {
     grid-area: image;
-    clip-path: circle(100px at center);
-    width: 200px;
+    clip-path: circle(70px at center);
+    width: 150px;
   }
 
   .title {

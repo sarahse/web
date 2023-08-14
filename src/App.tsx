@@ -9,6 +9,7 @@ const App = () => {
         <nav>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#talks">Talks</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -40,9 +41,9 @@ const App = () => {
             <p>
               <a href="https://tenknorge.com/tenk-tech-camp">TENK Tech Camp</a>{" "}
               is a 2 day programming camp for 13-18 year old girls in Norway. It
-              is run in three cities (as per 2022), and consists of workshops
-              and motivational talks which has the goal of inspiring more girls
-              to choose technology related studies and eventually work in the IT
+              is run in four cities (as per 2023), and consists of workshops and
+              motivational talks which has the goal of inspiring more girls to
+              choose technology related studies and eventually work in the IT
               industry.
             </p>
           </article>
@@ -61,18 +62,18 @@ const App = () => {
               enter this new life as a first-time mom.
               <br />
               <br />
-              In May 2022 I was contacted by a doctor and an influencer with an
-              idea to make an app for moms to help them clear out the mess in
-              their head by organizing tasks, events, reminders, tips and hints
-              into a digital tool. Now we are a team of four working on creating
-              this app temorarily (or permanently) called{" "}
-              <a href="https://dukkling.com">Dukkling</a>.
+              What does a software developer, designer, doctor and influencer
+              have in common? We’re all moms and tired of using too many and too
+              poorly designed apps to administrate our family life. None of the
+              apps on the market right now fit our needs, so we are creating our
+              own. Read more about our project at{" "}
+              <a href="https://dukkling.com">dukkling.com</a>.
             </p>
           </article>
           <article className="card">
             <h3>FoodforSophia</h3>
             <p>
-              I run an Instagram account called{" "}
+              In 2022 I created an Instagram account called{" "}
               <a href="https://www.instagram.com/foodforsophia/">
                 @foodforSophia
               </a>{" "}
@@ -86,9 +87,24 @@ const App = () => {
                 alt="Food Sophia eats"
                 className="clip-circle"
               />
+              <img
+                src="/media/dinner_sophia.jpg"
+                alt="Food Sophia eats"
+                className="clip-circle"
+              />
+              <img
+                src="/media/oatmeal_waffles_sophia.jpg"
+                alt="Food Sophia eats"
+                className="clip-circle"
+              />
+              <img
+                src="/media/porridge_sophia.jpg"
+                alt="Food Sophia eats"
+                className="clip-circle"
+              />
             </div>
           </article>
-          <article className="card">
+          {/* <article className="card">
             <h3>Knitting and crocheting</h3>
             <div className="card__images">
               <img
@@ -107,6 +123,15 @@ const App = () => {
                 className="clip-circle"
               />
             </div>
+          </article> */}
+        </section>
+        <section className="talks" id="talks">
+          <h2 className="title">Talks</h2>
+          <article className="card">
+            Booster conference in Bergen, March 2023:{" "}
+            <a href="https://2023.boosterconf.no/program/wednesday/9_short_talks_and_workshops/kongesalen/170-the-tale-of-four-moms-wanting-to-make-an-app/">
+              THE TALE OF FOUR MOMS WANTING TO MAKE AN APP
+            </a>
           </article>
         </section>
         <section className="contact" id="contact">
