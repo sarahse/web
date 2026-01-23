@@ -46,6 +46,8 @@
     grid-template-columns: 1fr;
     grid-template-areas: "hello" "about" "projects" "talks" "contact";
     padding: 1% 10%;
+    max-width: 700px;
+    margin: 0 auto;
 
     @media (max-width: 600px) {
       padding: 3%;
@@ -133,6 +135,7 @@
 
       @media (max-width: 600px) {
         grid-template-columns: 1fr;
+        justify-items: center;
       }
 
       p {
