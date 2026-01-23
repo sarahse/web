@@ -44,7 +44,7 @@
   &__body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "about" "projects" "talks" "contact";
+    grid-template-areas: "hello" "about" "projects" "talks" "contact";
     padding: 1% 10%;
 
     @media (max-width: 600px) {
@@ -54,6 +54,8 @@
     h2 {
       font-family: "Raleway", sans-serif;
       text-transform: uppercase;
+      text-align: center;
+      margin: 2rem 0;
     }
 
     h3 {
@@ -118,8 +120,25 @@
     width: 150px;
   }
 
-  .title {
-    margin: 0.5rem 0;
+  .dukkling-image {
+    max-width: 200px;
+  }
+
+  .card--dukkling {
+    .card__content {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1rem;
+      align-items: center;
+
+      @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
   }
 
   .text {
